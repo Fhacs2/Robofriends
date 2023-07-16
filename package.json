@@ -1,6 +1,6 @@
 {
   "name": "robofriends",
-  "homepage": "https://Fhacs2.github.io/robofriends",
+  "homepage": "https://fhacs2.github.io/Robofriends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,7 +42,9 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
-    "@babel/core": "^7.21.8"
+    "@babel/core": "7.22.5",
+    "@babel/eslint-parser": "7.22.5",
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "@babel/preset-env": "7.22.5"
   }
 }
